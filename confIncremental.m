@@ -1,11 +1,12 @@
 addpath(genpath('utils'));
 addpath(genpath('dataset'));
-clearAllButBP;
+clearAllButBP; % clear all but break points 
 
 % Path to results folder
 resRoot = 'results';
 
-datasetName = 'MNIST';
+%  datasetName = 'MNIST';
+datasetName = 'FOOD';
 
 %% Set experimental results relative directory name
 
